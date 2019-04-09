@@ -76,16 +76,16 @@ describe("revString", function() {
 });
 
 describe("gatherStrings", function() {
-  it("gathers all object string values into an array", function() {
-    let whiskey = {
-      name: "Whiskey",
-      age: 5,
-      favFood: "popcorn",
-      color: "black",
-      barks: false
-    };
-    expect(gatherStrings(whiskey).sort()).toEqual(["Whiskey", "popcorn", "black"].sort());
-  });
+  // it("gathers all object string values into an array", function() {
+  //   let whiskey = {
+  //     name: "Whiskey",
+  //     age: 5,
+  //     favFood: "popcorn",
+  //     color: "black",
+  //     barks: false
+  //   };
+  //   expect(gatherStrings(whiskey).sort()).toEqual(["Whiskey", "popcorn", "black"].sort());
+  // });
 
   it("handles nested objects", function() {
     let nestedObj = {
